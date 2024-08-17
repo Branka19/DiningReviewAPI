@@ -61,7 +61,7 @@ public class RestaurantController {
 	@PostMapping("/addNew")
 	public Restaurant createNewRestaurant(@RequestBody Restaurant restaurant) {
 
-		//German zip-code
+		//German zip code
 		String deZipRegex = "\\b[0124678][0-9]{4}\\b(?!\\s?[ \\/-]\\s?[0-9]+)";
 		
 		if (restaurantRepo
@@ -140,7 +140,7 @@ public class RestaurantController {
 		return restaurants;
 	}
     
-	// search restaurants by zip-code
+	// search restaurants by zip code
 	@GetMapping("/search/{zipCode}")
 
 	public List<Restaurant> getRestaurantByZipCode(@PathVariable String zipCode) {

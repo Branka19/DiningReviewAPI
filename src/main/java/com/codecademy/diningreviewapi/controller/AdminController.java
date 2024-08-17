@@ -74,6 +74,7 @@ public class AdminController {
 		
 		return updatedReview;
 	}
+	
 	//approve all reviews at once
 	@PutMapping("/reviews/approveAll")
 	public void approveAllReviews() {
