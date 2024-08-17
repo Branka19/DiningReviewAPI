@@ -28,7 +28,8 @@ target/
 .springBeans
 .sts4-cache
 To_Dos.txt
-data.sql
+*.sql
+application.properties
 
 ### VS Code ###
 .vscode/
