@@ -1,7 +1,7 @@
 # DiningReview API
 
 - base for this project is the CodeCademy portfolio project for the skill path **Create REST APIs with Spring and Java**
-- I used **React.js** to create the frontend for this project, more information here: [link]
+- I used **React.js** to create the frontend for this project, more information here: [DiningReview API - Frontend](https://github.com/Branka19/DiningReview-API---Frontend)
 
 ## Project Description:
 + the application should allow registered users to add reviews for restaurants
