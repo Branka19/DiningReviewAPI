@@ -23,9 +23,14 @@ public class RestaurantUser {
 	private Integer id;
 	
 	//has to be unique to that user
-	@Getter
 	@Column(unique=true)
 	private String displayName;
+	
+	@Column
+	private String email;
+	
+	@Column
+	private String password;
 	
 	@Column
 	private String city;
