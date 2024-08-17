@@ -13,4 +13,5 @@ public interface UserRepo extends CrudRepository<RestaurantUser, Integer>{
 	List<RestaurantUser> findAll();
 	
 	Optional<RestaurantUser> findByDisplayName(String displayName);
+	Optional<RestaurantUser> findByDisplayNameAndPassword(String displayName, String password);
 }
