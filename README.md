@@ -1,6 +1,6 @@
 # DiningReview API
 
-- my implementation of the CodeCademy portfolio project for the skill path **Create REST APIs with Spring and Java**
+- base for this project is the CodeCademy portfolio project for the skill path **Create REST APIs with Spring and Java**
 - I used **React.js** to create the frontend for this project, more information here: [link]
 
 ## Project Description:
