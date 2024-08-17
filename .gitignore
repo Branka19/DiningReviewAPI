@@ -29,7 +29,7 @@ target/
 .sts4-cache
 To_Dos.txt
 *.sql
-application.properties
+src/main/resources/application.properties
 
 ### VS Code ###
 .vscode/
